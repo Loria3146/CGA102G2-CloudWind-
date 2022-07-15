@@ -1,0 +1,398 @@
+/* -------------------------- all -------------------------- */
+
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "cwTeXYen", sans-serif;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+/* body::-webkit-scrollbar {
+    display: none;
+} */
+
+.textinfo {
+    color: white;
+    width: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+    z-index: 1;
+    margin-bottom: 60px;
+}
+
+/* -------------------------- header -------------------------- */
+
+header.header {
+    height: 200px;
+}
+
+.nav-ul-bot {
+    display: inline;
+}
+
+.nav-ul-top {
+    display: inline;
+}
+
+.nav-li {
+    display: inline-block;
+    list-style: none;
+}
+
+a.a {
+    text-decoration: none;
+}
+
+.nav-left-div p {
+    display: block;
+    color: #7D7D7D;
+    width: 80px;
+    font-size: 20px;
+    width: 100%;
+    border-right: 2px solid #7D7D7D;
+    padding-right: 12px;
+}
+
+.nav-left-div p:hover {
+    border-top: solid 3px #7D7D7D;
+}
+
+hr {
+    height: 3px;
+    background-color: gray;
+}
+
+nav {
+    height: 200px;
+    /* width: 1263px; */
+}
+
+.nav-top-a {
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 1150px;
+    width: 50px;
+}
+
+.nav-logo {
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.nav-left-div {
+    margin-top: 10px;
+}
+
+.nav-top-div {
+    display: inline;
+    width: 50px;
+    position: relative;
+    top: -5px;
+    right: 120px;
+}
+
+.nav-top-img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 40px;
+    left: 900px;
+}
+
+.nav-top-img-1 {
+    width: 50px;
+    height: 50px;
+}
+
+.nav-top-top {
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 1206px; */
+
+}
+
+.nav-top {
+    display: inline;
+    position: relative;
+    top: 0px;
+    right: -280px;
+
+}
+
+.text {
+    border: 2px;
+    border-radius: 20px;
+    border: 1px black;
+    background-color: #757575;
+    font-size: 20px;
+    padding: 8px 20px 8px 20px;
+    color: white;
+    width: 170px;
+    position: absolute;
+    top: 45px;
+    left: 967px;
+    text-align: center;
+}
+
+.nav-top-bot {
+    margin-left: 100px;
+    margin-top: 0px;
+    position: absolute;
+    top: 140px;
+    height: 50px;
+}
+
+.weather-div {
+    display: inline;
+    position: relative;
+    top: 20px;
+    left: 475px;
+}
+
+.weather-tr {
+    position: absolute;
+    left: 95px;
+    top: 0px;
+    width: 330px;
+}
+
+.weather-tr-1 {
+    position: absolute;
+    left: 95px;
+    top: 20px;
+}
+
+.td {
+    width: 42px;
+    padding-right: 5px;
+}
+
+.th {
+    width: 42px;
+    padding-right: 7px;
+}
+
+.icon-img {
+    width: 30px;
+    margin-right: 9px;
+}
+
+.weather-div {
+    visibility: hidden;
+}
+
+.icon {
+    visibility: hidden;
+    position: absolute;
+    left: 575px;
+    top: 70px;
+    width: 320px;
+}
+
+/* -------------------------- footer -------------------------- */
+
+footer.footer {
+    background-color: black;
+    height: 80px;
+    /* width: 1362px; */
+    margin-top: 20px;
+    position: relative;
+}
+
+footer.footer p {
+    color: white;
+    /* width: 100vw; */
+    font-size: 12px;
+    text-align: center;
+    margin-top: 2px;
+    position: relative;
+    top: 20px;
+}
+
+/* -------------------------- carousel -------------------------- */
+
+div.carousel-item {
+    height: 400px;
+}
+
+div.carousel-caption {
+    background-color: rgb(0, 0, 0, 0.1);
+}
+
+/* -------------------------- select section -------------------------- */
+
+
+
+/* -------------------------- kind section -------------------------- */
+
+a.nav-link {
+    color: #666C74;
+}
+
+a.active {
+    background-color: gray !important;
+}
+
+/* -------------------------- activity section -------------------------- */
+
+/**
+* CARD
+**/
+
+div.card {
+    width: 350px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    -webkit-transition: box-shadow 0.5s;
+    transition: box-shadow 0.5s;
+    margin-bottom: 20px;
+}
+
+a.card-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+div.card:hover {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+}
+
+/**
+* THUMB
+**/
+
+.card-head {
+    height: 190px;
+    overflow: hidden;
+    background-color: #000;
+    -webkit-transition: height 0.5s;
+    transition: height 0.5s;
+}
+
+.card-head img {
+    width: 100%;
+    display: block;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, transform 0.5s;
+    transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+}
+
+.card:hover .card-head {
+    height: 75px;
+}
+
+.card:hover .card-head img {
+    opacity: 0.6;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+/**
+* card_BODY
+**/
+
+.card-body {
+    position: relative;
+    height: 185px;
+    padding: 20px;
+    -webkit-transition: height 0.5s;
+    transition: height 0.5s;
+}
+
+.card:hover .card-body {
+    height: 300px;
+}
+
+.card-category {
+    position: absolute;
+    top: -25px;
+    left: 0;
+    height: 25px;
+    padding: 0 15px;
+    background-color: coral;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 25px;
+}
+
+.card-title {
+    margin: 0;
+    padding: 0 0 10px 0;
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card-subtitle {
+    margin: 0;
+    padding: 0 0 10px 0;
+    font-size: 19px;
+    color: gray;
+}
+
+.card-description {
+    overflow: hidden;
+    overflow-y: scroll;
+    position: absolute;
+    top: auto;
+    left: 20px;
+    right: 20px;
+    width: auto;
+    height: 130px;
+    margin: 0;
+    padding: 0;
+    color: #666C74;
+    line-height: 27px;
+    opacity: 0;
+    -webkit-transform: translateY(45px);
+    transform: translateY(45px);
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s, -webkit-transform 0.3s;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.card:hover div.card-description {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.card-footer {
+    position: absolute;
+    bottom: 12px;
+    left: 20px;
+    right: 20px;
+    font-size: 11px;
+    color: #A3A9A2;
+}
